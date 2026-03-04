@@ -1,0 +1,15 @@
+{
+  "name": "titipat/faker-php-thai",
+  "autoload": {
+    "psr-4": {
+      "Titipat\\Faker\\Provider\\th_TH\\": "src/Provider/th_TH/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Titipat",
+      "email": "titipat@mail.com"
+    }
+  ]
+}
