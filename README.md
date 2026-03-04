@@ -2,6 +2,12 @@
 
 Faker PHP provider for Thai language
 
+## Installation
+
+```
+composer require titipat/faker-php-thai
+```
+
 ## Usage
 
 ```php
