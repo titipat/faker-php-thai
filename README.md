@@ -12,7 +12,7 @@ composer require titipat/faker-php-thai
 
 ```php
 $faker = \Faker\Factory::create('th_TH');
-$faker->addProvider(new Titipat\Faker\Provider\th_TH\Text($faker));
+$faker->addProvider(new \Titipat\Faker\Provider\th_TH\Text($faker));
 
 echo $faker->text();
 ```
