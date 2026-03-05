@@ -23,6 +23,9 @@ echo $faker->text();
 
 ```php
 // Your service provider, e.g. App\Providers\AppServiceProvider
+
+use Faker\Generator;
+
 public function boot(): void
 {
     $this->app->extend(Generator::class, function (Generator $faker) {
@@ -35,6 +38,15 @@ public function boot(): void
         Generator::class,
     );
 }
+```
+
+```php
+echo fake()->text();
+```
+
+
+```blade
+<div>{{ fake()->text() }}</div>
 ```
 
 ## Available formatters
