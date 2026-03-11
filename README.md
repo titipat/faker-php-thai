@@ -51,6 +51,12 @@ echo fake()->text();
 
 ## Available formatters
 
+### Titipat\Faker\Provider\th_TH\Person
+
+```php
+nationalIdNumber(); // 1234567890123
+```
+
 ### Titipat\Faker\Provider\th_TH\Text
 
 ```php
