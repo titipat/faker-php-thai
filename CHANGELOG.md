@@ -1,10 +1,10 @@
 # Changelog
 
-## [Unreleased]
+## [v0.0.3]
 
 - Add Person provider with nationalIdNumber method
 
-## [v0.1.2]
+## [v0.0.2]
 
 - Fix dependency issue
 
